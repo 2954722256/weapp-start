@@ -1,0 +1,45 @@
+
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+}
+.children11 {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: red;
+}
+.children12 {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: yellow;
+}
+.children13 {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: purple;
+}
+
+
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  background-color: lightgray;
+}
+.children21 {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: red;
+}
+.children22 {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: yellow;
+}
+.children23 {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: purple;
+}

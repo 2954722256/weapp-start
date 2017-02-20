@@ -1,0 +1,16 @@
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+<view class="container">
+  <view class="venues_box">
+        <view class="venues_list">
+            <block wx:for="{{venuesItems}}">
+                <view class="venues_item">
+                    <navigator url="../brand/index?id={{item.id}}">
+                        <image src="{{item.smallpic}}"/>
+                    </navigator>
+                </view>
+            </block>
+        </view>
+    </view>
+</view>
