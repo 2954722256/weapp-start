@@ -1,19 +1,32 @@
-// page/dodo/pages/index.js
 Page({
-  data:{},
-  onLoad:function(options){
-    // 页面初始化 options为页面跳转所带来的参数
+  data: {
+    list: [
+      {
+        id: 'dodo11',
+        name: 'dodo分类11',
+        open: false,
+        pages: ['dodo-swiper', 'dodo-grid2', 'dodo-list']
+      },
+      {
+        id: 'content',
+        name: 'css相关',
+        open: false,
+        pages: ['css-flex', 'icon', 'progress','aaa']
+      }
+    ]
   },
-  onReady:function(){
-    // 页面渲染完成
-  },
-  onShow:function(){
-    // 页面显示
-  },
-  onHide:function(){
-    // 页面隐藏
-  },
-  onUnload:function(){
-    // 页面关闭
+  kindToggle: function (e) {
+    var id = e.currentTarget.id, list = this.data.list;
+    for (var i = 0, len = list.length; i < len; ++i) {
+      if (list[i].id == id) {
+        list[i].open = !list[i].open
+      } else {
+        list[i].open = false
+      }
+    }
+    this.setData({
+      list: list
+    });
   }
 })
+
