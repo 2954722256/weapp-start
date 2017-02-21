@@ -1,0 +1,12 @@
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+<view class="container">
+    <view class="container1">
+        <view class="children11"></view>
+        <view class="children12"></view>
+        <view class="children13"></view>
+    </view>
+    <button type="primary" >页面主操作 Normal</button>
+</view>
+

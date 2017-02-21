@@ -10,7 +10,9 @@
     "page/dodo/pages/icon/icon",
 
     "page/dodo/pages/css-flex/css-flex",
+    "page/dodo/pages/css-flex-direction/css-flex-direction",
 
+    "page/dodo/pages/css-demo-cloud/css-demo-cloud",
 
     "page/component/index",
 
@@ -123,7 +125,7 @@
       "pagePath": "page/dodo/index",
       "iconPath": "image/wechat.png",
       "selectedIconPath": "image/wechatHL.png",
-      "text": "dodo2"
+      "text": "dodo"
     }]
   },
   "networkTimeout": {

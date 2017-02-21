@@ -1,45 +1,15 @@
-
-
-.container1 {
-  display: flex;
-  flex-direction: column;
-  background-color: lightblue;
+.flex-wrp{
+  margin-top: 160rpx;
+  margin-bottom: 160rpx;
+  display:flex;
 }
-.children11 {
-  width: 100rpx;
-  height: 100rpx;
-  background-color: red;
+.flex-item{
+  width: 200rpx;
+  height: 300rpx;
+  font-size: 26rpx;
 }
-.children12 {
-  width: 100rpx;
-  height: 100rpx;
-  background-color: yellow;
-}
-.children13 {
-  width: 100rpx;
-  height: 100rpx;
-  background-color: purple;
-}
-
-
-
-.container2 {
-  display: flex;
-  flex-direction: row;
-  background-color: lightgray;
-}
-.children21 {
-  width: 100rpx;
-  height: 100rpx;
-  background-color: red;
-}
-.children22 {
-  width: 100rpx;
-  height: 100rpx;
-  background-color: yellow;
-}
-.children23 {
-  width: 100rpx;
-  height: 100rpx;
-  background-color: purple;
+.flex-item-V{
+  margin: 0 auto;
+  width: 300rpx;
+  height: 200rpx;
 }

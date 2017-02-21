@@ -1,0 +1,21 @@
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+
+<view class="container">
+      <template is="head" data="{{title: 'css云'}}"/>
+
+      <!--<view class="sky">
+          <image src="./img/cloud_one.png" class="clouds_one"> </image >
+          <image src="./img/cloud_two.png" class="clouds_two"> </image >
+          <image src="./img/cloud_three.png" class="clouds_three"> </image >
+      </view>-->
+
+
+      <view class="sky">
+          <view class="clouds_one"> </view >
+          <view class="clouds_two"> </view >
+          <view class="clouds_three"> </view >
+      </view>
+
+</view>

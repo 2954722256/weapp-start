@@ -11,7 +11,13 @@ Page({
         id: 'content',
         name: 'css相关',
         open: false,
-        pages: ['css-flex', 'icon', 'progress']
+        pages: ['css-flex', 'css-flex-direction','icon', 'progress']
+      },
+      {
+        id: 'demo',
+        name: 'css相关demo',
+        open: false,
+        pages: ['css-demo-cloud','icon', 'progress']
       }
     ]
   },
