@@ -1,0 +1,40 @@
+@dodo-out-height : 480px; //@dodo-out-height : 480rpx;
+@dodo-bg-sky : #007fd5;
+@dodo-img-url-clouds_one : "../../resources/cloud/cloud_one.png";
+@dodo-img-url-clouds_two : "../../resources/cloud/cloud_two.png";
+@dodo-img-url-clouds_three : "../../resources/cloud/cloud_three.png";
+
+.sky {
+  height: @dodo-out-height;
+  background: @dodo-bg-sky;
+  position: relative;
+  overflow: hidden;
+  animation: sky_background 50s ease-out infinite;
+}
+.sky .clouds_one {
+  .dodo_clouds(@url:@dodo-img-url-clouds_one, @time: 50s)
+}
+.sky .clouds_two {
+  .dodo_clouds(@url:@dodo-img-url-clouds_two, @time: 75s)
+}
+.sky .clouds_three {
+  .dodo_clouds(@url:@dodo-img-url-clouds_three, @time: 120s)
+}
+.dodo_clouds (@url: @dodo-img-url-clouds_one, @height: 100%, @width: 300%, @time: 100s){
+  background: url(@url);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  animation: cloud @time linear infinite;
+  transform: translate3d(0, 0, 0);
+}
+@keyframes cloud {
+  0% {
+    left: 0
+  }
+  100% {
+    left: -200%
+  }
+}

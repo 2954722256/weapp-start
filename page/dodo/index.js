@@ -17,7 +17,7 @@ Page({
         id: 'demo',
         name: 'css相关demo',
         open: false,
-        pages: ['css-demo-cloud','icon', 'progress']
+        pages: ['css-demo-cloud','css-test-less', 'progress']
       }
     ]
   },
