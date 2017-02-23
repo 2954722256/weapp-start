@@ -1,0 +1,13 @@
+@shadow-x : 5px;
+@shadow-y : 5px;
+@shadow-z : 5px;
+@shadow_color : #FF0000;
+
+.text1 {
+  .dodo-text-shadow(@s_color:@shadow_color)
+}
+
+.dodo-text-shadow (@s_x:shadow-x, @s_y:shadow-y, @s_z :@shadow-z, @s_color: @shadow_color){
+  //text-shadow: @s_x @s_y @s_z @s_color;
+  //text-shadow: 5px 5px 5px #FF0000;
+}

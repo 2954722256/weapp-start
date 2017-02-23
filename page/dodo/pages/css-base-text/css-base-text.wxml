@@ -1,0 +1,12 @@
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+
+<view class="container">
+      <!--<template is="head" data="{{title: 'css云'}}"/>-->
+
+      <view >
+          <view class="text1"> 文本阴影效果 </view >
+      </view>
+
+</view>
