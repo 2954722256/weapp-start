@@ -10,6 +10,9 @@
     "page/dodo/pages/dodo-calc/dodo-calc",
     "page/dodo/pages/dodo-calc-list/dodo-calc-list",
 
+    "page/dodo/pages/xiaomu-weather/xiaomu-weather",
+
+
     "page/dodo/pages/icon/icon",
 
     "page/dodo/pages/css-flex/css-flex",

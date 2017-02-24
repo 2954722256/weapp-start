@@ -1,0 +1,10 @@
+<view class="content">
+    <view class="today">
+        <view class="info">
+            <view class="temp">25 C</view>
+            <view class="weather">晴朗 南方 3到4级</view>
+            <view>友情提示：今天天气不错，适合出去玩。</view>
+            <view class="city">威海</view>
+        </view>
+    </view>
+</view>
