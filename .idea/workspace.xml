@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fc265c0-2582-489c-abfa-3e5373c4bc2f" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.wxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.wxss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/dodo/index.js" afterPath="$PROJECT_DIR$/page/dodo/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.less" afterPath="$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.wxss" afterPath="$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.wxss" />
     </list>
     <ignored path="weapp-start.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +28,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="xiaomu-weather.wxml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="xiaomu-weather.wxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.wxml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
               <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xiaomu-weather.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dodo-calc.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/dodo/pages/dodo-calc/dodo-calc.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -85,11 +100,11 @@
         <option value="$PROJECT_DIR$/page/dodo/pages/dodo-calc/dodo-calc.js" />
         <option value="$PROJECT_DIR$/page/dodo/pages/dodo-calc-list/dodo-calc-list.js" />
         <option value="$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.wxss" />
-        <option value="$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.less" />
         <option value="$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.json" />
         <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/page/dodo/index.js" />
         <option value="$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.wxml" />
+        <option value="$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.less" />
       </list>
     </option>
   </component>
@@ -263,32 +278,6 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="dodo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="pages">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="css-test-less">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="weapp-start">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="page">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -383,12 +372,12 @@
       <workItem from="1487732188084" duration="332000" />
       <workItem from="1487732535557" duration="16266000" />
       <workItem from="1487814086912" duration="7283000" />
-      <workItem from="1487898267107" duration="11084000" />
+      <workItem from="1487898267107" duration="11192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36632000" />
+    <option name="totallyTimeSpent" value="36740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="16" y="20" width="1154" height="974" extended-state="0" />
@@ -657,14 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/dodo/pages/css-test-less/css-test-less.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/dodo/pages/dodo-calc/dodo-calc.wxss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -677,14 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="626">
           <caret line="38" column="52" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/dodo/pages/dodo-calc/dodo-calc.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -733,14 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="119" column="58" selection-start-line="119" selection-start-column="58" selection-end-line="119" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -813,6 +778,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/dodo/pages/css-test-less/css-test-less.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/dodo/pages/dodo-calc/dodo-calc.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
         </state>
       </provider>
