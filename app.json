@@ -7,6 +7,8 @@
     "page/dodo/pages/dodo-swiper/dodo-swiper",
     "page/dodo/pages/dodo-grid2/dodo-grid2",
     "page/dodo/pages/dodo-list/dodo-list",
+    "page/dodo/pages/dodo-calc/dodo-calc",
+
     "page/dodo/pages/icon/icon",
 
     "page/dodo/pages/css-flex/css-flex",
@@ -15,6 +17,9 @@
     "page/dodo/pages/css-demo-cloud/css-demo-cloud",
     "page/dodo/pages/css-test-less/css-test-less",
     "page/dodo/pages/css-base-text/css-base-text",
+
+    "page/dodo/pages/fake-test-tablist/fake-test-tablist",
+
 
     "page/component/index",
 
@@ -106,7 +111,8 @@
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "演示",
     "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": true
   },
   "tabBar": {
     "color": "#7A7E83",

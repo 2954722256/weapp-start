@@ -1,0 +1,13 @@
+<!--<import src="../../../common/head.wxml" />-->
+<!--<import src="../../../common/foot.wxml" />-->
+
+<view class="container">
+    <view class="screen">{{text}}</view>
+
+    <view  class="btnGroup">
+        <view class="item orange"  id="{{id1}}">退格</view>
+        <view class="item orange"  id="{{id2}}">清屏</view>
+        <view class="item orange"  id="{{id3}}">+/-</view>
+        <view class="item orange"  id="{{id4}}">+</view>
+    </view>
+</view>

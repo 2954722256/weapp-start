@@ -5,7 +5,7 @@ Page({
         id: 'dodo1',
         name: 'dodo分类1',
         open: false,
-        pages: ['dodo-swiper', 'dodo-grid2', 'dodo-list']
+        pages: ['dodo-swiper', 'dodo-grid2', 'dodo-list', 'dodo-calc']
       },
       {
         id: 'content',
@@ -17,7 +17,13 @@ Page({
         id: 'demo',
         name: 'css相关demo',
         open: false,
-        pages: ['css-demo-cloud','css-test-less', 'css-base-text']
+        pages: ['css-demo-cloud','css-test-less', 'progress']
+      },
+      {
+        id: 'logo',
+        name: '其他的模仿',
+        open: false,
+        pages: ['fake-test-tablist']
       }
     ]
   },

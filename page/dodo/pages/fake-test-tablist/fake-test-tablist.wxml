@@ -1,0 +1,27 @@
+<import src="../../../common/head.wxml"/>
+<import src="../../../common/foot.wxml"/>
+
+
+<view class="container">
+
+    <!--可滑动切换tanbar-->
+    <view class="nav-tabs">
+        <view class="tab-list  {{currentTab == idx?'active':'default'}}" wx:for="{{tabArray}}" wx:for-index="idx"
+              wx:for-item="itemName" data-current="{{idx}}" bindtap="swichNav">{{itemName}}
+        </view>
+    </view>
+
+    <swiper current="{{currentTab}}" class="tab-content" duration="300" bindchange="bindChange">
+        <swiper-item wx:for="{{tabArray}}" wx:for-index="idx" wx:for-item="itemName" class="">
+
+            <view wx:if="{{idx == 0 }}">  0 </view>
+
+            <view wx:if="{{idx == 1 }}">  1 </view>
+
+            <view wx:if="{{idx == 2 }}">  2 </view>
+
+        </swiper-item>
+    </swiper>
+
+
+</view>
