@@ -23,7 +23,7 @@
   flex-direction: row;
 }
 .item {
-  width: 140rpx;
+  width: 160rpx;
   min-height: 150rpx;
   margin: 10rpx;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
@@ -33,7 +33,7 @@
 }
 .orange {
   color: #fef4e9;
-  border: solid 10rpx #da7c0c;
+  border: solid 1px #da7c0c;
   background: #f78d1d;
 }
 .blue {
