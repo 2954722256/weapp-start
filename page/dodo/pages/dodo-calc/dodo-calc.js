@@ -22,6 +22,7 @@ Page({
         id_hi:"history2",
         id_eq:"=",
         screenData:"0",
+        logs:[],
     },
     onLoad: function(options) {
         // Do some initialize when page load.
@@ -44,70 +45,82 @@ Page({
         // 页面关闭
     },
     clickButton:function (event) {
-        console.log(event);
+        // console.log(event);
         var id = event.target.id;
-        console.log(id);
+
+        var data;
+        if(this.data.screenData == 0){
+            data= event.target.id;
+        }else{
+            data= this.data.screenData + event.target.id;
+        }
+        // this.setData({screenData:data});
+        this.setData({screenData:data});
         switch (id){
-            case this.data.id0:
-                console.log(id);
-                break;
-            case this.data.id1:
-                console.log(id);
-                break;
-            case this.data.id2:
-                console.log(id);
-                break;
-            case this.data.id3:
-                console.log(id);
-                break;
-            case this.data.id4:
-                console.log(id);
-                break;
-            case this.data.id5:
-                console.log(id);
-                break;
-            case this.data.id6:
-                console.log(id);
-                break;
-            case this.data.id7:
-                console.log(id);
-                break;
-            case this.data.id8:
-                console.log(id);
-                break;
-            case this.data.id9:
-                console.log(id);
-                break;
+            // case this.data.id0:
+            //     console.log(id);
+            //     break;
+            // case this.data.id1:
+            //     console.log(id);
+            //     break;
+            // case this.data.id2:
+            //     console.log(id);
+            //     break;
+            // case this.data.id3:
+            //     console.log(id);
+            //     break;
+            // case this.data.id4:
+            //     console.log(id);
+            //     break;
+            // case this.data.id5:
+            //     console.log(id);
+            //     break;
+            // case this.data.id6:
+            //     console.log(id);
+            //     break;
+            // case this.data.id7:
+            //     console.log(id);
+            //     break;
+            // case this.data.id8:
+            //     console.log(id);
+            //     break;
+            // case this.data.id9:
+            //     console.log(id);
+            //     break;
             case this.data.id_back:
-                console.log(id);
                 break;
             case this.data.id_clear:
-                console.log(id);
                 break;
             case this.data.id_ne:
-                console.log(id);
                 break;
+            case this.data.id_eq:   // = , 判断加减乘除
+                this.data.logs.push(data);
+                wx.setStorageSync('result', this.data.logs);
+                console.log(data);
+                this.setData({screenData:"0"});
+                break;
+
+
             case this.data.id_pl:
-                console.log(id);
                 break;
             case this.data.id_mi:
-                console.log(id);
                 break;
             case this.data.id_mu:
-                console.log(id);
                 break;
             case this.data.id_di:
-                console.log(id);
                 break;
+
+
+
             case this.data.id_po:
-                console.log(id);
                 break;
+
             case this.data.id_hi:
-                console.log(id);
+                wx.navigateTo({
+                    url: '../dodo-calc-list/dodo-calc-list'
+                })
                 break;
-            case this.data.id_eq:
-                console.log(id);
-                break;
+
         }
     }
 
