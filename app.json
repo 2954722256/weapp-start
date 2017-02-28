@@ -7,10 +7,16 @@
     "page/dodo/pages/dodo-swiper/dodo-swiper",
     "page/dodo/pages/dodo-grid2/dodo-grid2",
     "page/dodo/pages/dodo-list/dodo-list",
-    "page/dodo/pages/dodo-calc/dodo-calc",
-    "page/dodo/pages/dodo-calc-list/dodo-calc-list",
+    "page/dodo/pages/xiaomu-calc/xiaomu-calc",
+    "page/dodo/pages/xiaomu-calc-list/xiaomu-calc-list",
 
     "page/dodo/pages/xiaomu-weather/xiaomu-weather",
+
+
+    "page/dodo/pages/fake-login/fake-login",
+    "page/dodo/pages/fake-test-tablist/fake-test-tablist",
+
+
 
 
     "page/dodo/pages/icon/icon",

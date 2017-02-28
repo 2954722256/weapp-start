@@ -5,7 +5,7 @@ Page({
         id: 'dodo1',
         name: 'dodo分类1',
         open: false,
-        pages: ['dodo-swiper', 'dodo-grid2', 'dodo-list', 'dodo-calc', 'dodo-calc-list','xiaomu-weather']
+        pages: ['dodo-swiper', 'dodo-grid2', 'dodo-list', 'xiaomu-calc', 'xiaomu-calc-list','xiaomu-weather']
       },
       {
         id: 'content',
@@ -23,7 +23,7 @@ Page({
         id: 'logo',
         name: '其他的模仿',
         open: false,
-        pages: ['fake-test-tablist']
+        pages: ['fake-test-tablist', 'fake-login']
       }
     ]
   },

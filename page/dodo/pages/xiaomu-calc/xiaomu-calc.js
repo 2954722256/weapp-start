@@ -117,7 +117,7 @@ Page({
 
             case this.data.id_hi:
                 wx.navigateTo({
-                    url: '../dodo-calc-list/dodo-calc-list'
+                    url: '../xiaomu-calc-list/xiaomu-calc-list'
                 })
                 break;
 

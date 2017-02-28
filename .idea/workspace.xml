@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fc265c0-2582-489c-abfa-3e5373c4bc2f" name="默认的" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/dodo/pages/fake-login/fake-login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/dodo/pages/fake-login/fake-login.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/dodo/pages/fake-login/fake-login.wxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/dodo/pages/fake-login/fake-login.wxss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.less" afterPath="$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.wxss" afterPath="$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.wxss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/dodo/index.js" afterPath="$PROJECT_DIR$/page/dodo/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/page/dodo/pages/dodo-calc-list/dodo-calc-list.js" afterPath="$PROJECT_DIR$/page/dodo/pages/xiaomu-calc-list/xiaomu-calc-list.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/page/dodo/pages/dodo-calc-list/dodo-calc-list.json" afterPath="$PROJECT_DIR$/page/dodo/pages/xiaomu-calc-list/xiaomu-calc-list.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/page/dodo/pages/dodo-calc-list/dodo-calc-list.less" afterPath="$PROJECT_DIR$/page/dodo/pages/xiaomu-calc-list/xiaomu-calc-list.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/page/dodo/pages/dodo-calc-list/dodo-calc-list.wxml" afterPath="$PROJECT_DIR$/page/dodo/pages/xiaomu-calc-list/xiaomu-calc-list.wxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/page/dodo/pages/dodo-calc-list/dodo-calc-list.wxss" afterPath="$PROJECT_DIR$/page/dodo/pages/xiaomu-calc-list/xiaomu-calc-list.wxss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/page/dodo/pages/dodo-calc/dodo-calc.js" afterPath="$PROJECT_DIR$/page/dodo/pages/xiaomu-calc/xiaomu-calc.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/page/dodo/pages/dodo-calc/dodo-calc.json" afterPath="$PROJECT_DIR$/page/dodo/pages/xiaomu-calc/xiaomu-calc.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/page/dodo/pages/dodo-calc/dodo-calc.less" afterPath="$PROJECT_DIR$/page/dodo/pages/xiaomu-calc/xiaomu-calc.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/page/dodo/pages/dodo-calc/dodo-calc.wxml" afterPath="$PROJECT_DIR$/page/dodo/pages/xiaomu-calc/xiaomu-calc.wxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/page/dodo/pages/dodo-calc/dodo-calc.wxss" afterPath="$PROJECT_DIR$/page/dodo/pages/xiaomu-calc/xiaomu-calc.wxss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/page/dodo/pages/dodo-calc/img/bg.png" afterPath="$PROJECT_DIR$/page/dodo/pages/xiaomu-calc/img/bg.png" />
     </list>
     <ignored path="weapp-start.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,38 +42,128 @@
     <fileColor scope="Project Files" color="Green" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="xiaomu-weather.wxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xiaomu-weather.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dodo-calc.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/dodo/pages/dodo-calc/dodo-calc.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.48981398">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/page/dodo/index.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/page/dodo/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="247">
+                  <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="xiaomu-calc.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-calc/xiaomu-calc.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="xiaomu-calc.wxml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-calc/xiaomu-calc.wxml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="xiaomu-calc.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-calc/xiaomu-calc.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="xiaomu-calc-list.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-calc-list/xiaomu-calc-list.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="xiaomu-calc-list.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-calc-list/xiaomu-calc-list.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="xiaomu-calc-list.less" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-calc-list/xiaomu-calc-list.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="xiaomu-calc.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-calc/xiaomu-calc.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1803">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="xiaomu-calc.wxss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-calc/xiaomu-calc.wxss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="fake-login.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/page/dodo/pages/fake-login/fake-login.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="418">
+                  <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,10 +206,15 @@
         <option value="$PROJECT_DIR$/page/dodo/pages/dodo-calc-list/dodo-calc-list.js" />
         <option value="$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.wxss" />
         <option value="$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.json" />
-        <option value="$PROJECT_DIR$/app.json" />
-        <option value="$PROJECT_DIR$/page/dodo/index.js" />
         <option value="$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.wxml" />
         <option value="$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.less" />
+        <option value="$PROJECT_DIR$/page/dodo/pages/fake-login/fake-login.js" />
+        <option value="$PROJECT_DIR$/page/dodo/pages/fake-login/fake-login.wxss" />
+        <option value="$PROJECT_DIR$/page/dodo/pages/fake-login/fake-login.less" />
+        <option value="$PROJECT_DIR$/page/dodo/pages/fake-login/fake-login.wxml" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/page/dodo/index.js" />
+        <option value="$PROJECT_DIR$/page/dodo/pages/xiaomu-calc-list/xiaomu-calc-list.less" />
       </list>
     </option>
   </component>
@@ -119,10 +229,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="16" />
-    <option name="y" value="20" />
-    <option name="width" value="1154" />
-    <option name="height" value="974" />
+    <option name="x" value="14" />
+    <option name="y" value="15" />
+    <option name="width" value="1655" />
+    <option name="height" value="895" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -238,7 +348,29 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="xiaomu-weather">
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="weapp-start">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="page">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dodo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="pages">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="xiaomu-calc-list">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -261,6 +393,40 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="pages">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="xiaomu-calc">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="weapp-start">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="page">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dodo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="pages">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="xiaomu-calc">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="img">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -297,11 +463,11 @@
       <recent name="H:\github\dodo\weapp-start\page\dodo\pages\dodo-calc" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\github\dodo\weapp-start\page\dodo\pages\fake-login\fonts" />
+      <recent name="H:\github\dodo\weapp-start\page\dodo\pages\fake-login\img" />
+      <recent name="H:\github\dodo\weapp-start\page\dodo\pages\fake-login" />
       <recent name="H:\github\dodo\weapp-start\page\dodo\pages\xiaomu-weather" />
       <recent name="H:\github\dodo\weapp-start\page\dodo\pages\dodo-calc-list" />
-      <recent name="H:\github\dodo\weapp-start\page\dodo\pages\dodo-calc\img" />
-      <recent name="H:\github\dodo\weapp-start\page\dodo\pages\dodo-calc" />
-      <recent name="H:\github\dodo\weapp-start\page\dodo\pages\dodo-test" />
     </key>
   </component>
   <component name="RunManager">
@@ -372,22 +538,30 @@
       <workItem from="1487732188084" duration="332000" />
       <workItem from="1487732535557" duration="16266000" />
       <workItem from="1487814086912" duration="7283000" />
-      <workItem from="1487898267107" duration="11192000" />
+      <workItem from="1487898267107" duration="11790000" />
+      <workItem from="1488157145763" duration="216000" />
+      <workItem from="1488161072030" duration="1045000" />
+      <workItem from="1488167831865" duration="4235000" />
+      <workItem from="1488182351446" duration="137000" />
+      <workItem from="1488183307278" duration="110000" />
+      <workItem from="1488184053621" duration="3608000" />
+      <workItem from="1488244074810" duration="1400000" />
+      <workItem from="1488254867684" duration="506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36740000" />
+    <option name="totallyTimeSpent" value="48595000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="16" y="20" width="1154" height="974" extended-state="0" />
+    <frame x="14" y="15" width="1655" height="895" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32541132" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19373041" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833788" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -421,41 +595,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/page/component/pages/text/text.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/component/pages/text/text.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/dodo/pages/navi-gaode-start/navi-gaode-start.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/dodo/pages/navi-gaode-start/navi-gaode-start.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/common/lib/qqmap-wx-jssdk.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/common/lib/qqmap-wx-jssdk.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -502,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="36" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -517,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -525,7 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="57" column="3" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -603,7 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,7 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,7 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="26" column="8" selection-start-line="26" selection-start-column="11" selection-end-line="31" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -634,7 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,23 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/dodo/pages/dodo-calc/dodo-calc.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/dodo/pages/dodo-calc/dodo-calc.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="38" column="52" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,47 +781,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/dodo/pages/dodo-calc-list/dodo-calc-list.less">
+    <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-calc-list/xiaomu-calc-list.wxss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/dodo/pages/dodo-calc-list/dodo-calc-list.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/dodo/pages/dodo-calc-list/dodo-calc-list.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/dodo/pages/dodo-calc/dodo-calc.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/dodo/pages/dodo-calc/dodo-calc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="119" column="58" selection-start-line="119" selection-start-column="58" selection-end-line="119" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,7 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -722,14 +802,89 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-calc-list/xiaomu-calc-list.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/dodo/pages/css-test-less/css-test-less.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/dodo/pages/fake-login/fake-login.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/dodo/pages/fake-login/fake-login.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/dodo/index.js">
+    <entry file="file://$PROJECT_DIR$/page/dodo/pages/fake-login/fake-login.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/dodo/pages/fake-login/fake-login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/dodo/pages/fake-login/fake-login.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="103" selection-start-line="7" selection-start-column="103" selection-end-line="7" selection-end-column="103" />
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -742,31 +897,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/dodo/pages/dodo-calc-list/dodo-calc-list.js">
+    <entry file="file://$PROJECT_DIR$/page/dodo/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="247">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
+    <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-calc/xiaomu-calc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="50" />
+        <state relative-caret-position="-1803">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/dodo/pages/dodo-calc-list/dodo-calc-list.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="3" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.wxss">
+    <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-calc/xiaomu-calc.wxss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -774,15 +921,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/dodo/pages/css-test-less/css-test-less.less">
+    <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-calc/xiaomu-calc.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -790,18 +929,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/dodo/pages/dodo-calc/dodo-calc.less">
+    <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-calc/xiaomu-calc.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-weather/xiaomu-weather.less">
+    <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-calc/xiaomu-calc.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-calc-list/xiaomu-calc-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-calc-list/xiaomu-calc-list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/dodo/pages/xiaomu-calc-list/xiaomu-calc-list.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
           <folding />
         </state>
       </provider>
